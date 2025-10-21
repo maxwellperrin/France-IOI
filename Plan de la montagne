@@ -1,0 +1,17 @@
+Écrivez un programme qui affiche exactement le texte qui suit :
+Tout droit tu grimperas,
+La clé tu trouveras,
+Habile tu seras,
+Quand tu les porteras,
+Et avec le chef tu reviendras !
+
+#include<stdio.h>
+
+int   main()
+{
+   printf("Tout droit tu grimperas,\n");
+   printf("La clé tu trouveras,\n");
+   printf("Habile tu seras,\n");
+   printf("Quand tu les porteras,\n");
+   printf("Et avec le chef tu reviendras !");
+}
