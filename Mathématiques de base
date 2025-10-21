@@ -1,0 +1,26 @@
+Ce que doit faire votre programme :
+
+Corrigez les erreurs contenues dans le programme ci-dessous afin qu'il affiche 13 fois de suite le texte 9 * 8 = 72.
+
+--------------------------------------------------------------------------------
+#include <stdio.h>
+#define repeat(nb) for (int _loop = 1, _max = (nb); _loop <= _max; _loop++)
+int main()
+{
+   repeat 13
+   {
+      printf("9 * 8 = 72\n);
+   }
+}
+-------------------------------------------------------------------------------
+
+#include <stdio.h>
+#define repeat(nb) for (int _loop = 1, _max = (nb); _loop <= _max; _loop++)
+
+int main()
+{
+   repeat (13)
+   {
+      printf("9 * 8 = 72\n");
+   }
+}
