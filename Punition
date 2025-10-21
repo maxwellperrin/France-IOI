@@ -1,0 +1,17 @@
+Ce que doit faire votre programme :
+
+Votre programme doit écrire 135 fois la phrase : "Je dois respecter le Grand Sorcier.", en plaçant cette phrase exactement une fois sur chaque ligne. Attention, 
+si votre programme n'affiche pas exactement cette phrase avec les points et la majuscule là où il faut, il faudra tout recommencer.
+
+Important : votre programme ne doit pas faire plus d'une douzaine de lignes.
+
+#include <stdio.h>
+#define repeat(nb) for (int _loop = 1, _max = (nb); _loop <= _max; _loop++)
+
+int main()
+{
+   repeat (135)
+   {
+      printf("Je dois respecter le Grand Sorcier.\n");
+   }
+ }
